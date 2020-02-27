@@ -28,6 +28,7 @@ end
 
 def using_insert(array, element)
   return array.insert(4)
+end
 
 def using_uniq(array)
   return array.uniq
@@ -44,5 +45,3 @@ end
 def using_delete_at(famous_robots, integer)
   return array.delete(integer)
 end
-
-end 
