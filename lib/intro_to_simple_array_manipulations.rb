@@ -27,7 +27,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  return array.insert(4)
+  return array.insert(element)
 end
 
 def using_uniq(array)
@@ -42,6 +42,6 @@ def using_delete(array, string)
   return array.delete(string)
 end
 
-def using_delete_at(famous_robots, integer)
+def using_delete_at(array, integer)
   return array.delete(integer)
 end
