@@ -41,7 +41,7 @@ def using_delete(array, string)
   return array.delete(string)
 end
 
-def using_delete_at(array, integer)
+def using_delete_at(famous_robots, delete_robot)
   return array.delete(integer)
 end
 
