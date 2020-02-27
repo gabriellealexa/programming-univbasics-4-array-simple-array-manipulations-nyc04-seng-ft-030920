@@ -45,4 +45,4 @@ def using_delete_at(famous_robots, integer)
   return array.delete(integer)
 end
 
-  
+end 
